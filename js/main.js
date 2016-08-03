@@ -16,4 +16,8 @@ $(document).ready(function(){
     $("#about").click(function(){
       $(".page-content").html();
     });
+
+     $( "#education" ).click(function( event ) {
+        loadEducation();
+    });
 });
