@@ -12,4 +12,8 @@ $(document).ready(function(){
     }, 300); // the period between every character and next one, in milliseonds.
 	}
 	loadName();
+
+    $("#about").click(function(){
+      $(".page-content").html();
+    });
 });
